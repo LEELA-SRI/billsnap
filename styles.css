@@ -78,7 +78,7 @@ th {
 @media (max-width: 767px) {
   .left {
     position: absolute;
-    height: 90vh;
+    height:calc(100vh-50px);
     /* top: 35px; */
   }
 }
