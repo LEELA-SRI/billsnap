@@ -10,236 +10,280 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-    </script>
+  </script>
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
- 
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-			rel="stylesheet"
-		/> <link rel="stylesheet" href="styles.css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
   <!-- navbar begins -->
   <header>
-  <nav class="navbar navbar-expand-lg fixed-top p-md-0">
-    <div class="container-fluid">
-      <div class="d-md-none menu">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-      <div class="d-none d-md-none close">
-        <i class="fa-solid fa-xmark fa-xl"></i>
-      </div>
-      <a class="navbar-brand d-none d-md-block mt-1" href="#">
-        <img class="img-fluid" src="https://www.techsnap.in/assets/assets/dashboard/assets/icon.svg" alt="logo"
-          width="150px" height="44px" />
-      </a>
+    <nav class="navbar navbar-expand-lg fixed-top p-md-0">
+      <div class="container-fluid">
+        <div class="d-md-none menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="d-none d-md-none close">
+          <i class="fa-solid fa-xmark fa-xl"></i>
+        </div>
+        <a class="navbar-brand d-none d-md-block mt-1" href="#">
+          <img class="img-fluid" src="https://www.techsnap.in/assets/assets/dashboard/assets/icon.svg" alt="logo"
+            width="150px" height="44px" />
+        </a>
 
-      <div class="d-flex ms-auto gap-4 pe-3">
-        <i class="fa-regular fa-bell"></i>
-        <i class="fa-regular fa-user"></i>
+        <div class="d-flex ms-auto gap-4 pe-3">
+          <i class="fa-regular fa-bell"></i>
+          <i class="fa-regular fa-user"></i>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 
 
   <div class="main mx-auto">
     <div class="row">
-    <div class="left d-none d-md-block col-md-4">
-      <div class="menu-frag d-flex flex-column p-3 ps-4 gap-3">
-        <div>
-          <i class="fa-solid fa-table-columns"></i>
-          <a href="">&nbsp;Dashboard</a>
-        </div>
-        <div>
-          <i class="fa-solid fa-sack-dollar"></i>
-          <a href="">&nbsp;Estimates</a>
-        </div>
-        <div>
-          <i class="fa-solid fa-gear"></i>
-          <a href="">&nbsp;Settings</a>
-        </div>
-      </div>
-      <div class="menu-frag mt-3 ps-3">
-        <h3>Customer</h3>
-        <div class="customer-frag d-flex flex-column p-3 pt-1 gap-3">
+      <div class="left d-none d-md-block col-md-4">
+        <div class="menu-frag d-flex flex-column p-3 ps-4 gap-3">
           <div>
-            <i class="fa-solid fa-user-plus"></i>
-            <a href="">&nbsp;Create</a>
+            <i class="fa-solid fa-table-columns"></i>
+            <a href="">&nbsp;Dashboard</a>
           </div>
           <div>
-            <i class="fa-solid fa-list"></i>
-            <a href="#customer-list" id="active">&nbsp;Customer List</a>
+            <i class="fa-solid fa-sack-dollar"></i>
+            <a href="">&nbsp;Estimates</a>
           </div>
           <div>
-            <i class="fa-solid fa-upload"></i>
-            <a href="">&nbsp;Bulk Upload</a>
-          </div>
-          <div>
-            <i class="fa-solid fa-people-roof"></i>
-            <a href="">&nbsp;Manage Group</a>
-          </div>
-          <div>
-            <i class="fa-solid fa-person-circle-check"></i>
-            <a href="">&nbsp;Pending approvals</a>
-          </div>
-          <div>
-            <i class="fa-solid fa-message"></i>
-            <a href="">&nbsp;Messaging</a>
+            <i class="fa-solid fa-gear"></i>
+            <a href="">&nbsp;Settings</a>
           </div>
         </div>
-      </div>
-      <div class="menu-frag mt-3 ps-3">
-        <h3>Payments</h3>
-        <div class="pay-frag d-flex flex-column  p-3 pt-1  gap-3">
-          <div>
-            <i class="fa-solid fa-money-check"></i>
-            <a href="">&nbsp;Collect Payments</a>
-          </div>
-          <div class="btn-group gap-2">
-            <i class="fa-brands fa-cc-mastercard pt-1"></i>
-            <div type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              Transactions
+        <div class="menu-frag mt-3 ps-3">
+          <h3>Customer</h3>
+          <div class="customer-frag d-flex flex-column p-3 pt-1 gap-3">
+            <div>
+              <i class="fa-solid fa-user-plus"></i>
+              <a href="">&nbsp;Create</a>
             </div>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Warriors</a></li>
-            <li><a class="dropdown-item" href="#">Centuries</a></li>
-            <li><a class="dropdown-item" href="#">Unstoppable</a></li>
-            </ul>
+            <div>
+              <i class="fa-solid fa-list"></i>
+              <a href="#customer-list" id="active">&nbsp;Customer List</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-upload"></i>
+              <a href="">&nbsp;Bulk Upload</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-people-roof"></i>
+              <a href="">&nbsp;Manage Group</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-person-circle-check"></i>
+              <a href="">&nbsp;Pending approvals</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-message"></i>
+              <a href="">&nbsp;Messaging</a>
+            </div>
           </div>
-          <div>
-            <i class="fa-solid fa-map"></i>
-            <a href="">&nbsp;Plans</a>
+        </div>
+        <div class="menu-frag mt-3 ps-3">
+          <h3>Payments</h3>
+          <div class="pay-frag d-flex flex-column  p-3 pt-1  gap-3">
+            <div>
+              <i class="fa-solid fa-money-check"></i>
+              <a href="">&nbsp;Collect Payments</a>
+            </div>
+            <div class="btn-group gap-2">
+              <i class="fa-brands fa-cc-mastercard pt-1"></i>
+              <div type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Transactions
+              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Warriors</a></li>
+                <li><a class="dropdown-item" href="#">Centuries</a></li>
+                <li><a class="dropdown-item" href="#">Unstoppable</a></li>
+              </ul>
+            </div>
+            <div>
+              <i class="fa-solid fa-map"></i>
+              <a href="">&nbsp;Plans</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-code-pull-request"></i>
+              <a href="">&nbsp;Requests</a>
+            </div>
           </div>
-          <div>
-            <i class="fa-solid fa-code-pull-request"></i>
-            <a href="">&nbsp;Requests</a>
+        </div>
+        <div class="d-flex mb-4">
+          <button class="btn btn-primary ms-3"><a class="text-decoration-none text-white" href="">Get
+              Support</a></button>
+        </div>
+      </div>
+      <div class="col-md-7 flex-md-fill">
+        <div class="col right" id="customer-list">
+          <h2 class="ps-1 pt-3" style="color: blue">Customer List</h2>
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Username</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Phone</th>
+                  <th scope="col">Created On</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td class="username">Shane</td>
+                  <td class="email">shaneyisgay@gmail.com</td>
+                  <td class="phn">8454615155</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">ava</td>
+                  <td class="email">notavamax@yahoo.com</td>
+                  <td class="phn">8924295488</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">alessandra</td>
+                  <td class="email">lessiericci@google.com</td>
+                  <td class="phn">9908292625</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">Shane</td>
+                  <td class="email">shaneyisgay@gmail.com</td>
+                  <td class="phn">8454615155</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">ava</td>
+                  <td class="email">notavamax@yahoo.com</td>
+                  <td class="phn">8924295488</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">alessandra</td>
+                  <td class="email">lessiericci@google.com</td>
+                  <td class="phn">9908292625</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">Shane</td>
+                  <td class="email">shaneyisgay@gmail.com</td>
+                  <td class="phn">8454615155</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">ava</td>
+                  <td class="email">notavamax@yahoo.com</td>
+                  <td class="phn">8924295488</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">alessandra</td>
+                  <td class="email">lessiericci@google.com</td>
+                  <td class="phn">9908292625</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">Shane</td>
+                  <td class="email">shaneyisgay@gmail.com</td>
+                  <td class="phn">8454615155</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">ava</td>
+                  <td class="email">notavamax@yahoo.com</td>
+                  <td class="phn">8924295488</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">alessandra</td>
+                  <td class="email">lessiericci@google.com</td>
+                  <td class="phn">9908292625</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">Shane</td>
+                  <td class="email">shaneyisgay@gmail.com</td>
+                  <td class="phn">8454615155</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">ava</td>
+                  <td class="email">notavamax@yahoo.com</td>
+                  <td class="phn">8924295488</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+                <tr>
+                  <td class="username">alessandra</td>
+                  <td class="email">lessiericci@google.com</td>
+                  <td class="phn">9908292625</td>
+                  <td class="created-on">2022-04-05</td>
+                  <td class="status">Admin</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
-      <div class="d-flex mb-4">
-      <button class="btn btn-primary ms-3"><a class="text-decoration-none text-white" href="">Get Support</a></button>
-    </div></div>
-    <div class="col-md-7 flex-md-fill">
-    <div class="col right" id="customer-list">
-      <h2 class="ps-1 pt-3" style="color: blue">Customer List</h2>
-      <div class="table-responsive">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Username</th>
-              <th scope="col">Email</th>
-              <th scope="col">Phone</th>
-              <th scope="col">Created On</th>
-              <th scope="col">Status</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td class="username">Shane</td>
-              <td class="email">shaneyisgay@gmail.com</td>
-              <td class="phn">8454615155</td>
-              <td class="created-on">2022-04-05</td>
-              <td class="status">Admin</td>
-            </tr>
-            <tr>
-              <td class="username">ava</td>
-              <td class="email">notavamax@yahoo.com</td>
-              <td class="phn">8924295488</td>
-              <td class="created-on">2022-04-05</td>
-              <td class="status">Admin</td>
-            </tr>
-            <tr>
-              <td class="username">alessandra</td>
-              <td class="email">lessiericci@google.com</td>
-              <td class="phn">9908292625</td>
-              <td class="created-on">2022-04-05</td>
-              <td class="status">Admin</td>
-            </tr>
-            <tr>
-              <td class="username">Shane</td>
-              <td class="email">shaneyisgay@gmail.com</td>
-              <td class="phn">8454615155</td>
-              <td class="created-on">2022-04-05</td>
-              <td class="status">Admin</td>
-            </tr>
-            <tr>
-              <td class="username">ava</td>
-              <td class="email">notavamax@yahoo.com</td>
-              <td class="phn">8924295488</td>
-              <td class="created-on">2022-04-05</td>
-              <td class="status">Admin</td>
-            </tr>
-            <tr>
-              <td class="username">alessandra</td>
-              <td class="email">lessiericci@google.com</td>
-              <td class="phn">9908292625</td>
-              <td class="created-on">2022-04-05</td>
-              <td class="status">Admin</td>
-            </tr>
-            <tr>
-              <td class="username">Shane</td>
-              <td class="email">shaneyisgay@gmail.com</td>
-              <td class="phn">8454615155</td>
-              <td class="created-on">2022-04-05</td>
-              <td class="status">Admin</td>
-            </tr>
-            <tr>
-              <td class="username">ava</td>
-              <td class="email">notavamax@yahoo.com</td>
-              <td class="phn">8924295488</td>
-              <td class="created-on">2022-04-05</td>
-              <td class="status">Admin</td>
-            </tr>
-            <tr>
-              <td class="username">alessandra</td>
-              <td class="email">lessiericci@google.com</td>
-              <td class="phn">9908292625</td>
-              <td class="created-on">2022-04-05</td>
-              <td class="status">Admin</td>
-            </tr>
-            
-            <tr>
-              <td class="username">alessandra</td>
-              <td class="email">lessiericci@google.com</td>
-              <td class="phn">9908292625</td>
-              <td class="created-on">2022-04-05</td>
-              <td class="status">Admin</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
     </div>
   </div>
-</div>
   </div>
   </section>
 </body>
 <script>
-  let leftie= document.querySelector('.left')
-  let menuh= document.querySelector('.menu')
-  let closeh= document.querySelector('.close')
-  menuh.addEventListener('click',function(){
-      menuh.classList.toggle('d-none')
-      closeh.classList.toggle('d-none')
-      leftie.classList.toggle('d-none')
+  let leftie = document.querySelector('.left')
+  let menuh = document.querySelector('.menu')
+  let closeh = document.querySelector('.close')
+  let right = document.querySelector('.right')
+
+
+
+  // if (window.innerWidth >= 767) right.classList.remove(".overlay");
+
+  menuh.addEventListener('click', function () {
+    menuh.classList.toggle('d-none')
+    closeh.classList.toggle('d-none')
+    leftie.classList.toggle('d-none')
+    right.classList.toggle('overlay')
 
   })
-  closeh.addEventListener('click',function(){
-      menuh.classList.toggle('d-none')
-      closeh.classList.toggle('d-none')
-      leftie.classList.toggle('d-none')
+  closeh.addEventListener('click', function () {
+    menuh.classList.toggle('d-none')
+    closeh.classList.toggle('d-none')
+    leftie.classList.toggle('d-none')
+    right.classList.toggle('overlay')
 
   })
-
 </script>
+
 </html>
