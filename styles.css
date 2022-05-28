@@ -92,7 +92,7 @@ th {
 .frag h3{
   margin-bottom:0;
 }
-.form input,.form select{
+.form input,.form select,.form textarea{
   margin-bottom: 7px;
 }
 .required::after {
