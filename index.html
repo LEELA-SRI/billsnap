@@ -72,7 +72,7 @@
           <div class="customer-frag d-flex flex-column p-3 pt-1 gap-3">
             <div>
               <i class="fa-solid fa-user-plus"></i>
-              <a href="">&nbsp;Create</a>
+              <a href="create-user.html">&nbsp;Create</a>
             </div>
             <div>
               <i class="fa-solid fa-list"></i>
@@ -260,30 +260,7 @@
   </div>
   </section>
 </body>
-<script>
-  let leftie = document.querySelector('.left')
-  let menuh = document.querySelector('.menu')
-  let closeh = document.querySelector('.close')
-  let right = document.querySelector('.right')
+<script src="script.js"></script>
 
-
-
-  // if (window.innerWidth >= 767) right.classList.remove(".overlay");
-
-  menuh.addEventListener('click', function () {
-    menuh.classList.toggle('d-none')
-    closeh.classList.toggle('d-none')
-    leftie.classList.toggle('d-none')
-    right.classList.toggle('overlay')
-
-  })
-  closeh.addEventListener('click', function () {
-    menuh.classList.toggle('d-none')
-    closeh.classList.toggle('d-none')
-    leftie.classList.toggle('d-none')
-    right.classList.toggle('overlay')
-
-  })
-</script>
 
 </html>
