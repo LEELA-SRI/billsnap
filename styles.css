@@ -74,6 +74,31 @@ th {
   overflow-y: hidden;
   padding-right: 10px;
 }
+.create-customer{
+  overflow-x: hidden;
+  
+}
+.frag{
+  margin-top:5px;
+  margin-bottom:30px
+}
+.frag > div:first-child{
+  background: linear-gradient(45deg,#cd27ff 0 50%,rgb(245, 245, 245) 70% 100%);
+  color:white
+}
+.frag > div:first-child i{
+  color:black
+}
+.frag h3{
+  margin-bottom:0;
+}
+.form input,.form select{
+  margin-bottom: 7px;
+}
+.required::after {
+  content: "*";
+  color: red;
+}
 /* mobile */
 @media (max-width: 767px) {
   .left {
