@@ -103,7 +103,7 @@ th {
 @media (max-width: 767px) {
   .left {
     position: absolute;
-    height:calc(100vh-50px);
+    height:calc(100vh-55px);
     /* top: 35px; */
   }
 }
