@@ -57,6 +57,16 @@ div > a {
   border-radius: 8px;
   margin: 20px auto;
 }
+.btn:hover{
+  background:#ff00d4
+}
+.btn:hover,input:hover,textarea:hover,.btn:focus,input:focus,textarea:focus{
+  outline:none !important;
+  box-shadow: none !important;
+  
+}
+
+/* create-customer styles */
 .menu-frag {
   border-bottom: 0.5px solid rgb(184, 184, 184);
 }
@@ -98,6 +108,15 @@ th {
 .required::after {
   content: "*";
   color: red;
+}
+.save-changes{
+  width:fit-content;
+
+}
+.cancel{
+  width:fit-content;
+  background: white;
+  border: 1px solid #7933ff;
 }
 /* mobile */
 @media (max-width: 767px) {
